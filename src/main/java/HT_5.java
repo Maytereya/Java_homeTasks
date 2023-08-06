@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
 public class HT_5 {
     static Map<String, String> phoneMap = new HashMap<>();
 
