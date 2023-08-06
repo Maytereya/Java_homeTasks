@@ -18,7 +18,7 @@ public class HT_5 {
             String sc = scanner.nextLine();
 
             if (sc.contains(chk[0]) || sc.contains(chk[1]) || sc.contains(chk[2])) {
-
+            // Наверное, не самый элегантный способ проверки... Но лаконичнее не придумал.
                 if (sc.equals("1")) {
                     System.out.print("1 - добавить контакт\nВведите имя: ");
                     name = scanner.nextLine();
